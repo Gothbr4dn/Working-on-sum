@@ -30,13 +30,13 @@ class Project extends HXProject {
 	/**
 	 * The game's name. Used as the default window title.
 	 */
-	static final TITLE:String = "Friday Night Funkin'";
+	static final TITLE:String = "Friday Night Funkin' real deal goth bella";
 
 	/**
 	 * The name of the generated executable file.
 	 * For example, `"Funkin"` will create a file called `Funkin.exe`.
 	 */
-	static final EXECUTABLE_NAME:String = "Funkin";
+	static final EXECUTABLE_NAME:String = "real deal goth bella";
 
 	/**
 	 * The relative location of the source code.
@@ -64,7 +64,7 @@ class Project extends HXProject {
 	 * The company name for the game.
 	 * This appears in metadata in places I think.
 	 */
-	static final COMPANY:String = "The Funkin' Crew";
+	static final COMPANY:String = "The Funkin' Crew & GothBella";
 
   /**
    * Path to the Haxe script run before building the game.
@@ -252,8 +252,8 @@ class Project extends HXProject {
 	 */
 	function flair() {
 		// TODO: Implement this.
-		info("Friday Night Funkin'");
-		info("Initializing build...");
+		info("Friday Night Funkin' GothBella");
+		info("Cutting the build...");
 
 		info("Target Version: " + VERSION);
 		info("Git Branch:     " + getGitBranch());
